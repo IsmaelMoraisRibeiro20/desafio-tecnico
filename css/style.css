@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: C0C0C0;
+    font-family: Inter,light;
+}
+
+.container{
+    display: flex;
+    background-color: F6F5F5;
+    width: 50%;
+    height: 60%;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 8.5%;
+}
+
+.bemVindo{
+    display: flex;
+    background-color: FF8A00;
+    width:35%;
+    height: 100%;
+    border-radius: 30px 0 0 30px;
+}
+
+.bemVindo h3{
+    display: flex;
+    font-size: 50px;
+    margin-top: 38%;
+    padding-left: 23%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.login{
+    width: 65%;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+}
+
+.login img{
+    width: 5%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%; 
+}
+
+form{
+    width: 30%;
+    height: 20%;
+    padding: 5px;
+    margin-left: 28%;
+    margin-top: 20%;
+    
+}
+
+label{
+    display: flex;
+    padding-top: 10%;  
+}
+
+
+input {
+    width: 155%;
+    height: 35%;
+    border-radius: 30px;
+    background-color: C0C0C0;
+    padding-left: 10%;
+    margin-top: 3%;
+    border: none;
+    outline: unset;
+    
+}
+
+input[type="password"]:invalid{
+    border: 1px solid red
+}
+
+
+form p,a{
+    margin-top: 5%;
+    color: FF8A00;
+    text-decoration: none;
+}
+
+input[type='submit']{
+    background-color: FF8A00;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    width: 120%;
+    margin-left: 20%;
+    margin-top: 10%;
+    cursor: pointer;
+    padding-right: 5%;
+}
+

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Tela de Login</title>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet"/>
+
+    </head>
+
+    <body>
+        <main class="container">
+
+            <section class="bemVindo">
+                <h3>Seja<br>Bem-Vindo!</h3>
+            </section><!--bemVindo-->
+
+            <section class="login">
+               <a href=""><img src="img/excluir.png"></a>
+
+               <form>
+                    
+                    <label>USUÁRIO</label>
+    
+                    <input type="text" id="email" placeholder="Digite seu e-mail" name="email">
+                    
+                    <label for="">SENHA</label>
+                    <input type="password"  id="senha" placeholder="Digite sua senha" name="senha">
+
+                    <a href=""><p>Esqueceu a senha?</p></a>
+
+                    <input type="submit" id="meuBotao" onclick="validacao.ouvinte()" value="ENTRAR" name="butao" >
+    
+               </form>
+
+            </section><!--login-->
+
+        </main><!--container-->
+
+        <script src="js/verificacao.js"></script>
+    </body>
+    
+
+</html>
